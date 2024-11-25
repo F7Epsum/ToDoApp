@@ -1,0 +1,25 @@
+.navContainer {
+  width: 80%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1E1E1E;
+
+
+  .circleContainer{
+
+  border-radius: 30px;
+  width: 60%;
+  border: none;
+  background-color: #222222;
+
+    button{
+      color: #777777;
+      }
+    .button-add {
+      color: #FF4D16;
+      width: 30%;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+
+img {
+  margin-left: 30px;
+}
+
+
+
+.form-div{
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: black;
+  background-color: #7FBBFB;
+}
+
+
+button{
+  width: 50%;
+  background-color: transparent;
+  border-image: linear-gradient(to right, #59D3FD 0%, #F572F7 100%) 1;
+  border-style: solid;
+
+  &:hover{
+    background-color: #7FBBFB;
+  }
+}
