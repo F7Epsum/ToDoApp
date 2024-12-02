@@ -1,20 +1,45 @@
-<div class="userContainer d-flex justify-content-center align-items-center">
+<div class="userContainer d-flex justify-content-between align-items-center">
 
-    <button type="submit" class="userButton">
-        <i class="bi bi-person-circle text-light fs-3 b-none"></i>
-    </button>
-    <div>
-    <p class="fs-1 text-light">Good day!</p>
+    <div class="d-flex">
+        <button type="submit" class="userButton">
+            <i class="bi bi-person-circle text-light fs-3 b-none"></i>
+        </button>
+        <p class="fs-1 h2 text-light">Good day!</p>
     </div>
-    <button type="submit" class="notifiyContainer">
-        <i class="bi bi-bell text-light fs-3"></i>
-    </button>
+    <div class="d-flex">
+        <button type="submit" class="notifiyContainer">
+            <i class="bi bi-bell text-light fs-3"></i>
+        </button>
+    </div>
 
 </div>
 
-<div>
+<div class="mb-2 mt-4">
+    <p class="h3 text-light px-4">Tasks for today</p>
+</div>
 
+<div class="tasks d-flex justify-content-center align-items-center mt-4">
+    <button type="submit" class="text-light ts-2 taskButton px-2 mx-2">All</button>
+    <button type="submit" class="text-light ts-2 taskButton px-2 mx-2">Work</button>
+    <button type="submit" class="text-light ts-2 taskButton px-2 mx-2">Personal</button>
+    <button type="submit" class="text-light ts-2 taskButton px-2 mx-2">Study</button>
+    <button type="submit" class="text-light ts-2 taskButton px-2 mx-2">Family</button>
+</div>
+
+<div class="d-flex flex-column align-items-center mt-3">
+
+    <div class="d-flex flex-row justify-content-between taskCont p-2 mb-2  align-items-center"*ngFor="let tarea of tareas">
+        <div class="d-flex row taskDetail">
+            <p class="text-light mb-0">{{tarea.Title}}</p>
+            <p class="text-light mb-0 ">{{tarea.Date}}</p>
+            <p class="text-light mb-0">{{ tarea.Time }}</p>
+        </div>
+        <div>
+            <i class="bi bi-three-dots-vertical dots"></i>
+        </div>
+    </div>
 
 </div>
+
 
 

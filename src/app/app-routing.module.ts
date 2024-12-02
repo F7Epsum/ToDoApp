@@ -5,8 +5,9 @@ import {LayoutSinHeaderComponent} from "./layout-sin-header/layout-sin-header.co
 import {LayoutConHeaderComponent} from "./layout-con-header/layout-con-header.component";
 import {HomeComponent} from "./home/home.component";
 
+
 const routes: Routes = [
-  {path: "", component: LayoutSinHeaderComponent, children: [
+  {path: "", component: LayoutSinHeaderComponent,  children: [
       {path: "", component: LoginComponent},
     ]
   },

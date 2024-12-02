@@ -1,9 +1,29 @@
 .userContainer{
   background-color: #1E1E1E;
+  margin: 50px 10px 30px 20px;
+  width: 90%;
 }
 
 Button{
   border: none;
   color: white;
   background-color: #1E1E1E;
+
+}
+.taskButton{
+  border: 1px solid #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.taskCont{
+  background-color: #222222;
+  width: 85%;
+  border-radius: 10px 10px 10px 10px;
+
+}
+
+.dots{
+  color: #FF4D16;
+}
+.taskDetail{
 }

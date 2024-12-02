@@ -19,7 +19,7 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     LayoutSinHeaderComponent,
     LayoutConHeaderComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
